@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="icon/png" href="img\pics\logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<li>
+				<a href="Inicio.html">INICIO</a> 
+			</li>
+			<li>
+				<a href="cursos_alum.html">ALUMNO</a>
+			</li>
+			<li>
+				<a href="cursos_admin.html">ADMIN</a>
+			</li>
+		</nav>
+	</header>
+	<form action="validar_user.php" method="post">
+		<h2 style="color: #6991AC;">Inicio de Sesión Alumnos</h2>
+		<input type="text" placeholder="&#128100; Ingrese su usuario aqui" name="usuario">
+		<br>
+		<input type="password" placeholder="&#128272; Ingrese su contraseña aqui" name="contraseña">
+		<br>
+		<br>
+		<input type="submit" value="ingresar">
+	</form>
+</body>
+</html>
